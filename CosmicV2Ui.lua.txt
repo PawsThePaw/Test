@@ -3840,3 +3840,4 @@ end)
         library:Initialize()
     end
 end
+return library
