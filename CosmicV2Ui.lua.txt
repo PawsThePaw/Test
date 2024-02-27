@@ -1,7 +1,6 @@
 repeat
     task.wait()
 until game:IsLoaded()
-local Lib = {}
 local library
 do
     local folder = "Cosmic"
@@ -3840,4 +3839,4 @@ end)
         library:Initialize()
     end
 end
-return Lib
+return library
