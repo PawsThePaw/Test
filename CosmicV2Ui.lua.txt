@@ -498,7 +498,7 @@ end)
             FontSize = Enum.FontSize.Size14,
             TextStrokeTransparency = 0,
             TextSize = 14,
-            TextColor3 = library.accent,
+            TextColor3 = Color3.fromRGB(255, 255, 255),
             Text = name,
             Font = Enum.Font.Code,
             TextXAlignment = Enum.TextXAlignment.Left,
