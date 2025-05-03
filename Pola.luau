@@ -713,7 +713,7 @@ function Library:Window(Title, Func, Options)
             WindowData.Selection = Selection_Opt.Script
             TStatus.Text = Translate(("Currently <b>%s</b>"):format(Selection_Opt.Status), Options.Translate)
             ImageLabel.Text = Data.Name or Translate("Unknown", Options.Translate)
-            AImage.Image = ("http://www.roblox.com/asset/?id=%s"):format(Data.AssetId or Data.Image:match("%d+") or "0")
+            AImage.Image = "https://www.roblox.com/asset-thumbnail/image?assetId=13772394625&width=768&height=432&format=png"
             LastUpdateButton.Text = Translate(("Last Update <b>%s</b>"):format(Selection_Opt.UpdateDate and FormatTime(os.time() - Selection_Opt.UpdateDate) or "Never"), Options.Translate)
             
 			if Selection_Opt.Creator then
